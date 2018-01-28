@@ -1,13 +1,13 @@
 #include "MainWindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent)
+  QMainWindow(parent)
 {
-    ui.setupUi(this);
-    std::vector<char> test = {-5,-4,-3,-2,-1};
-    test.insert(test.end(), mTest.begin(), mTest.end());
-    int i = 0;
-    i++;
+  ui.setupUi(this);
+  std::vector<char> test = {-5,-4,-3,-2,-1};
+  test.insert(test.end(), mTest.begin(), mTest.end());
+  int i = 0;
+  i++;
 }
 
 void MainWindow::on_pushButton_2_toggled(bool checked)
