@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>783</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="styleSheet">
+    <string notr="true">
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(151, 151, 151, 255), stop:1 rgba(223, 223, 223, 255));</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="handleWidth">
+       <number>3</number>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="maximumSize">
+        <size>
+         <width>250</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QTreeView" name="treeView"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QFrame" name="frame_2">
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item row="1" column="0">
+         <widget class="QSplitter" name="splitter_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="handleWidth">
+           <number>1</number>
+          </property>
+          <widget class="QFrame" name="frame_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>Tahoma</family>
+            </font>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="midLineWidth">
+            <number>0</number>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <property name="horizontalSpacing">
+             <number>0</number>
+            </property>
+            <item row="0" column="0">
+             <widget class="QFrame" name="frame_8">
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="widget_3" native="true">
+                 <layout class="QGridLayout" name="gridLayout_6">
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetNoConstraint</enum>
+                  </property>
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QPushButton" name="pushButton">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>.SF NS Text</family>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(51, 51, 51, 255), stop:1 rgba(100, 100, 100, 255));
+
+border: 1px solid black;
+color: rgb(255, 255, 255);
+min-width: 130px;
+min-height: 24px;
+}
+
+QPushButton:pressed {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(37, 76, 134, 255));
+}
+
+QPushButton:checked {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(50, 100, 150, 255));
+border: 1px solid black;
+};
+
+
+
+
+                           </string>
+                    </property>
+                    <property name="text">
+                     <string>Rigs</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_2" native="true">
+                 <layout class="QGridLayout" name="gridLayout_7">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QPushButton" name="pushButton_2">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(51, 51, 51, 255), stop:1 rgba(100, 100, 100, 255));
+
+border: 1px solid black;
+color: rgb(255, 255, 255);
+min-width: 130px;
+min-height: 24px;
+}
+
+QPushButton:pressed {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(37, 76, 134, 255));
+}
+
+QPushButton:checked {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(37, 76, 134, 255));
+border: 1px solid black;
+};</string>
+                    </property>
+                    <property name="text">
+                     <string>Performances</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget" native="true">
+                 <property name="styleSheet">
+                  <string notr="true">QWidget#widget{
+	min-height: 1.5em;
+    
+	border-color: rgb(0, 0, 0);
+}</string>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_3">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QPushButton" name="pushButton_3">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(51, 51, 51, 255), stop:1 rgba(100, 100, 100, 255));
+
+border: 1px solid black;
+color: rgb(255, 255, 255);
+min-width: 130px;
+min-height: 24px;
+}
+
+QPushButton:pressed {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(37, 76, 134, 255));
+}
+
+QPushButton:checked {
+background-color: qlineargradient(spread:repeat, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(34, 73, 126, 255), stop:1 rgba(37, 76, 134, 255));
+border: 1px solid black;
+};</string>
+                    </property>
+                    <property name="text">
+                     <string>Library</string>
+                    </property>
+                    <property name="checkable">
+                     <bool>true</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QStackedWidget" name="stackedWidget">
+              <property name="styleSheet">
+               <string notr="true">QTabWidget::pane { /* The tab widget frame */
+    border-top: 2px solid #C2C7CB;
+}
+
+QTabWidget::tab-bar {
+    left: 0px; /* move to the right by 5px */
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 2px solid #C4C4C3;
+    border-bottom-color: #C2C7CB; /* same as the pane color */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 2px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+}
+
+QTabBar::tab:selected {
+    border-color: #9B9B9B;
+    border-bottom-color: #C2C7CB; /* same as pane color */
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px; /* make non-selected tabs look smaller */
+}</string>
+              </property>
+              <property name="currentIndex">
+               <number>7</number>
+              </property>
+              <widget class="QWidget" name="stackedWidgetPage1"/>
+              <widget class="QWidget" name="stackedWidgetPage2"/>
+              <widget class="QWidget" name="stackedWidgetPage3"/>
+              <widget class="QWidget" name="stackedWidgetPage4"/>
+              <widget class="QWidget" name="stackedWidgetPage5"/>
+              <widget class="QWidget" name="stackedWidgetPage6"/>
+              <widget class="QWidget" name="stackedWidgetPage7"/>
+              <widget class="QWidget" name="stackedWidgetPage8"/>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QFrame" name="frame_6">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <widget class="QComboBox" name="comboBox">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>20</y>
+              <width>215</width>
+              <height>28</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QComboBox {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+    min-height: 1.5em;
+    color: white;
+}
+
+QComboBox:editable {
+    background: darkgrey;
+}
+
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                 stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+}
+
+/* QComboBox gets the &quot;on&quot; state when the popup is open */
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 30px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 10px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 10px;
+}
+/*
+QComboBox::down-arrow {
+    image: url(:/qtStandard/downArrow);
+}
+
+QComboBox::down-arrow:on { /* shift the arrow when popup is open *//*
+    top: 1px;
+    left: 1px;
+}
+*/
+QComboBox QAbstractItemView {
+    border: 2px solid darkgray;
+    selection-background-color: lightgray;
+    background-color: darkgray
+}</string>
+            </property>
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>Test1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Test2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Test3</string>
+             </property>
+            </item>
+           </widget>
+          </widget>
+          <widget class="QFrame" name="frame_7">
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>615</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
